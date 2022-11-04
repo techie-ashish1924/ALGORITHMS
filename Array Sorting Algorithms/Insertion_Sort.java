@@ -19,7 +19,7 @@ public class Insertion_Sort {
         {
             int j = i-1;
             int data = arr[i];
-            while(arr[j]  >= data && j>=0)
+            while(j>=0 && arr[j]  > data)
             {
                 arr[j+1] = arr[j];
                 j--;
