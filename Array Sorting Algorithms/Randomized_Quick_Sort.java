@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class Randomized_Quick_Sort {
 
+    public static void Randomized(int arr[])
+    {
+        
+    }
+
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
